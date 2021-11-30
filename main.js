@@ -57,7 +57,7 @@ let getResult = document.querySelector("#result");
 let darkMode = document.querySelector(".toggleButton");
 
 darkMode.addEventListener("click", () => {
-    var element = document.body;
+    let element = document.body;
     element.classList.toggle("dark-mode");
 });
 
